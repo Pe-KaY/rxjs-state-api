@@ -1,0 +1,7 @@
+<div class="container" *ngIf="currentCart$ | async as cart">
+    <h1>Total Items {{cart.length}}</h1>
+    <div class="cartitems">
+        <app-cart-item *ngFor="let item of cart" [item]="item"></app-cart-item>
+        <h1>Total Price {{cartService.totalprice| currency}}</h1>
+    </div>
+</div>

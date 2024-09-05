@@ -1,0 +1,49 @@
+.container {
+  /* background-color: rgb(27, 215, 181); */
+  border-radius: 1rem;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.itemname {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.itemprice {
+  color: aquamarine;
+  font-weight: bold;
+}
+button {
+  width: 80%;
+  height: 3rem;
+  padding: 10px 20px;
+  border-radius: 100vw;
+  cursor: pointer;
+  background-color: #c4fcef;
+  color: black;
+  font-weight: bold;
+}
+
+.incart {
+  outline: 3px solid #ff8066;
+}

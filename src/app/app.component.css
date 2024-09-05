@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    color: black;
+}
+
+.items{
+    width: 80%;
+    background-color: #008e9b;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.carts{
+    width: 20%;
+    background-color: #008f7a;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}

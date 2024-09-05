@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid white;
+    background-color: azure;
+    padding: 1rem;
+    box-shadow: 0 0 10px 5px rgba(231, 226, 226, 0.2);
+}
+
